@@ -63,7 +63,7 @@ const zukkine = [
 let sum = 0;
 
 
-const sumWeigth = zukkine.forEach(zucchina => {
+zukkine.forEach(zucchina => {
     sum = sum + zucchina.weight;
 })
 

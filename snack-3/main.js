@@ -9,6 +9,9 @@ function reverseString(inputString) {
 
     arrayString.forEach((element, i) => {
         reverseArrayString[arrayString.length - 1 - i] = element;
+
+        console.log(reverseArrayString);
+        console.log(reverseArrayString[0]);
     });
 
     const outputString = reverseArrayString.join('');
